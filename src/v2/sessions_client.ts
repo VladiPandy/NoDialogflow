@@ -491,7 +491,7 @@ export class SessionsClient {
    * @returns {string} The DNS address for this service.
    */
   static get servicePath() {
-    return 'dialogflow.googleapis.com';
+    return '127.0.0.1';
   }
 
   /**
@@ -500,7 +500,7 @@ export class SessionsClient {
    * @returns {string} The DNS address for this service.
    */
   static get apiEndpoint() {
-    return 'dialogflow.googleapis.com';
+    return '127.0.0.1';
   }
 
   /**
@@ -508,7 +508,7 @@ export class SessionsClient {
    * @returns {number} The default port for this service.
    */
   static get port() {
-    return 443;
+    return 8000;
   }
 
   /**
